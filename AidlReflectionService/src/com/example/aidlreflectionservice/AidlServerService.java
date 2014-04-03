@@ -22,6 +22,7 @@ public class AidlServerService extends Service {
 		}
 		
 		public Book getBook() throws RemoteException {
+//		private Book getBook() throws RemoteException {
 			Book mBook = new Book();
 			mBook.setBookName("Android应用开发");
 			mBook.setBookPrice(50);
